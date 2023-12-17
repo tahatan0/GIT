@@ -1,24 +1,25 @@
-- **GIT SCM En Çok Kullanılan Kodlar**
-  - git init : projeyi oluştururken initealize etmek için kullanırız
-  - git add . : **Yeni eklenen veya üzerinde değişiklik yapılan ’’ TÜM ‘’ dosyaları staged ortamına göndermek için kullanılır**. (gitignore dosyasındakiler hariç)
-  - **git diff** : En son aldığımız snaphot’a kıyasla şuanki snapshot arasındakı değişiklikleri gösterir
-    - **git diff HEAD** : Commitlenmiş ama henüz push edilmemiş dosyalarınız ile çalışma alanınız arasındaki farklara bakmak isterseniz
-  - git commit : snapshot almak için kullanılır
-  - git status : Proje de hangi dosyalarda değişiklik olduğunu öğrenmek için kullanırız
-  - git push : uzak pc’ye veya github’a gönder
-  - git pull : uzak pc’dem veya github’dan proje klasörünü çek
-  - git clone [https://github.com/tahatan0/tahatan0.git](https://github.com/tahatan0/tahatan0.git) : projenin kopyasını klonunu almak için
-  - git checkout : branch’ler arası geçiş yapabiliriz yani projenin içinde birden fazla kişi çalışıyor birden fazla yapı varsa bu branchler arası geçiş yapabiliyoruz
-  - git rm : dosyaları siler
-    - **git rm -r ‘’_klasör ismi_’’** : Eğer silmek istediğiniz bir dosya değil bir dizin ise
-  - git log : projede hangi kullanıcı hangi saate ne commitlemiş loglarını gösterir
-    - git log —oneline : daha az bilgi için (one line = tek satır)
-    - git log —summary : daha fazla bilgi için (summary = özet)
-  - **git checkout --index.html** : Bazı değişiklikler yaptınız ve sonra herhangi bir nedenden dolayı bu değişiklikleri kaydetmeden geri almak istiyorsunuz. Bu durumda kullanmanız gereken
-  - **explorer .** : Dosyanın bulunduğu klasörü açar
-  - **git —version** : git versiyonunu gösterir
-  - **git branch** : tüm branch’larınızı listeler.
-  - **git branch *yeni_branch_ismi :* Yeni bir branch olşturur**
-  - **git checkout -b *yeni_branch_ismi :* Yeni bir branch olşturur ve o branch’e girer**
-  - **git branch -d *branch_ismi : var olan bir branch’ı siler***
-  - **git checkout _branch_ismi : branchler arası geçiş yapar_**
+# GIT SCM En Çok Kullanılan Kodlar
+
+- `git init` : projeyi oluştururken initealize etmek için kullanırız
+- `git add .` : **Yeni eklenen veya üzerinde değişiklik yapılan ’’ TÜM ‘’ dosyaları staged ortamına göndermek için kullanılır**. (gitignore dosyasındakiler hariç)
+- `git diff`: En son aldığımız snaphot’a kıyasla şuanki snapshot arasındakı değişiklikleri gösterir
+  - `git diff HEAD` : Commitlenmiş ama henüz push edilmemiş dosyalarınız ile çalışma alanınız arasındaki farklara bakmak isterseniz
+- `git commit` : snapshot almak için kullanılır
+- `git status` : Proje de hangi dosyalarda değişiklik olduğunu öğrenmek için kullanırız
+- `git push` : uzak pc’ye veya github’a gönder
+- `git pull` : uzak pc’dem veya github’dan proje klasörünü çek
+- `git clone https://github.com/tahatan0/tahatan0.git` : projenin kopyasını klonunu almak için
+- git checkout : branch’ler arası geçiş yapabiliriz yani projenin içinde birden fazla kişi çalışıyor birden fazla yapı varsa bu branchler arası geçiş yapabiliyoruz
+- `git rm` : dosyaları siler
+  - `git rm -r ‘’_klasör ismi_’’` : Eğer silmek istediğiniz bir dosya değil bir dizin ise
+- `git log` : projede hangi kullanıcı hangi saate ne commitlemiş loglarını gösterir
+  - `git log —oneline` : daha az bilgi için (one line = tek satır)
+  - `git log —summary` : daha fazla bilgi için (summary = özet)
+- `git checkout --index.html` : Bazı değişiklikler yaptınız ve sonra herhangi bir nedenden dolayı bu değişiklikleri kaydetmeden geri almak istiyorsunuz. Bu durumda kullanmanız gereken
+- `explorer .` : Dosyanın bulunduğu klasörü açar
+- `git —version` : git versiyonunu gösterir
+- `git branch` : tüm branch’larınızı listeler.
+  - `git branch "yeni_branch_ismi"`: Yeni bir branch olşturur
+  - `git branch -d "branch_ismi"`: var olan bir branch’ı siler
+- `git checkout -b "yeni_branch_ismi"`: Yeni bir branch olşturur ve o branch’e girer
+  - `git checkout "branch_ismi"` : branchler arası geçiş yapar
