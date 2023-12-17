@@ -1,7 +1,11 @@
------
+---
+
 ## Bu bölümde kendimce aldığım **GIT** Notlarımı Paylaşıyorum. İyi Okumalar...
---------
+
+---
+
 ### Kaynaklar
+
 - https://github.com/github/gitignore/tree/main/Global
 - https://docs.github.com/en
 - https://git-scm.com/doc
