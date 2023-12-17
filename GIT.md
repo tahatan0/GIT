@@ -1,11 +1,11 @@
 # GIT
 
 - **GIT SCM Kurulumu**
-  ![Untitled](img/Untitled.png)
+  ![Untitled](!img/Untitled.png)
   [https://git-scm.com/download/win](https://git-scm.com/download/win)
-  ![Untitled](img/Untitled%201.png)
+  ![Untitled](!img/Untitled%201.png)
   - Next Next Diyip Kurulumu Bitir.
-    ![Untitled](img/Untitled%202.png)
+    ![Untitled](!img/Untitled%202.png)
     cmd’ de linux kodlarımızı çalıştırabiliriz. Örneğin Burada Masaüstünde ‘’ test ‘’ adında bir dosya açıp, cmd üzerinden ‘’ code . ‘’ koduyla o dosya içinde Visiual Studio Code Açtık.
   ```csharp
   cd Desktop
@@ -14,8 +14,8 @@
   code .
   ```
 - **GIT SCM Ne İşe Yarar?**
-  ![Untitled](img/Untitled%203.png)
-  ![Untitled](img/Untitled%204.png)
+  ![Untitled](!img/Untitled%203.png)
+  ![Untitled](!img/Untitled%204.png)
   - Çoğu Kişi Versiyonlanmaması gereken proje dosyalarını da versiyonluyor (commitliyor) örneğin log dosyaları password username dosyaları…vb.
     **Git ignore** özelliği ile versiyonlanmasını istemediğimiz dosyaları seçebiliriz.
 - **GIT SCM En Çok Kullanılan Kodlar**
@@ -56,44 +56,44 @@
   Yukarıda açıkladığımız servisler haricinde GitKraken, SourceTree gibi irili ufaklı farklı servisler de mevcuttur.
   GIT sistemini kullanmaya başladığınızda karşınıza daha önce aşina olmadığınız bazı tanımlar çıkacaktır. Temel bazı terimleri kısaca açıklayarak içeriğimizi bitirelim.
 - **GIT Bash** ve **Git Temel Komutları**
-  ![Untitled](img/Untitled%205.png)
-  ![Untitled](img/Untitled%206.png)
+  ![Untitled](!img/Untitled%205.png)
+  ![Untitled](!img/Untitled%206.png)
   `git add -A .txt` komutunu çalıştırsaydık tüm .txt uzantılı dosyaları **staged** ortamına eklerdi.
   # **Değişiklikleri Commit’lemek**
   _Commit_, **staged** ortamına alınan dosyaların *HEAD*’e gönderilmesidir. Yapılan değişiklikler ***commit* sonucu hala sizin local’inizdedir** ve **uzak sunucuya gönderilmesi için push edilmesi gerekir.**
   - **Eğer İlk defa bir projeyi versiyon kontrol sistemine yani Git SCM e initialize ediceksek,
     git init komutunu kullanmalıyız.**
-    ![Untitled](img/Untitled%207.png)
-    ![Untitled](img/Untitled%208.png)
+    ![Untitled](!img/Untitled%207.png)
+    ![Untitled](!img/Untitled%208.png)
   - Proje klasörünün dosya yolunda yani içinde git bash açıldı
-    ![Untitled](img/Untitled%209.png)
+    ![Untitled](!img/Untitled%209.png)
   - git init yazdık ve proje klasörümüzün içinde görünmeyen ‘’ .git ‘’ adında bir klasör açıldı, bu klasörün içerisindeki yapı GIT tarafından yönetiliyor. pek bi işimiz yok bu klasörle
-    ![Untitled](img/Untitled%2010.png)
-    ![Untitled](img/Untitled%2011.png)
+    ![Untitled](!img/Untitled%2010.png)
+    ![Untitled](!img/Untitled%2011.png)
   - Burada **git add index.html** diyerek bu dosyayı takibe (tracking) aldık.
-    ![Untitled](img/Untitled%2012.png)
+    ![Untitled](!img/Untitled%2012.png)
   - Eğer yanlış dosyayı takibe aldıysak **git rm —cached index.html** yazarak bunu takipten çıkartabiliriz.
     veya **git reset** **index.html**
     `git reset` komutu dosyayı silmez. Sadece commit’lenmeye hazır durumda olma statüsünden çıkartır!
-    ![Untitled](img/Untitled%2013.png)
-    ![Untitled](img/Untitled%2014.png)
+    ![Untitled](!img/Untitled%2013.png)
+    ![Untitled](!img/Untitled%2014.png)
   - Eğer yaptığımız değişikliklerin snapshot’unu almak yani kaydetmek commit atmak istiyorsak;
     git commit -m ‘_Commit Hakkinda Yorum…vb_’
-    ![Untitled](img/Untitled%2015.png)
+    ![Untitled](!img/Untitled%2015.png)
     **git diff** ile en son aldığımız snaphot’a kıyasla şuanki snapshot arasındakı değişiklikleri görüyoruz.
     a ile b arasındaki fark buna tekabül ediyor.
     **Not**
-    ![Untitled](img/Untitled%2016.png)
+    ![Untitled](!img/Untitled%2016.png)
   - **M** : Modified
   - **U** : Untracked
-    ![Untitled](img/Untitled%2017.png)
+    ![Untitled](!img/Untitled%2017.png)
   - git log : projede hangi kullanıcı hangi saate ne commitlemiş loglarını gösterir
-    ![Untitled](img/Untitled%2018.png)
-    ![Untitled](img/Untitled%2019.png)
+    ![Untitled](!img/Untitled%2018.png)
+    ![Untitled](!img/Untitled%2019.png)
 - **Sırasıyla Push-Pull Etmek. (Düzenleniyor...)**
-  ![Untitled](img/Untitled%2020.png)
-  ![Untitled](img/Untitled%2021.png)
-  ![Untitled](img/Untitled%2022.png)
+  ![Untitled](!img/Untitled%2020.png)
+  ![Untitled](!img/Untitled%2021.png)
+  ![Untitled](!img/Untitled%2022.png)
   ### Projeyi Push Etmek
   1. **git init** **→** Local Repository oluşturur. (Proje Klasörünün içinde .git klasörü)
   2. **git add \*** **→** Değişikliklerin hepsini, working dir’ den stage’ e atar.
@@ -114,31 +114,31 @@
   ***
 - **VS Code** **terminal kullanmadan GIT Temel Komutları**
   - Proje Klasörümüzü Açıyoruz.
-    ![Untitled](img/Untitled%2023.png)
+    ![Untitled](!img/Untitled%2023.png)
   - Ardından ‘’Source Control’’ Menüsüne Geliyoruz ve ‘’**init**ialize Repository’’ diyoruz.
-    ![Untitled](img/Untitled%2024.png)
+    ![Untitled](!img/Untitled%2024.png)
   - Gelen Ekranda Görüyoruz ki **stage edilmiş bir dosyamız yok**.
   - bir dosyayı stage etmek için + işaretine tıklıyoruz
-    ![Untitled](img/Untitled%2025.png)
+    ![Untitled](!img/Untitled%2025.png)
   - Ardından stage edilmiş dosyalarımızı commit’lemek için bu kısma tıklıyoruz
-    ![Untitled](img/Untitled%2026.png)
+    ![Untitled](!img/Untitled%2026.png)
   - Explorer Kısmına Geldiğimizde ise sadece index.html i eklenmiş, diğer dosyaları Untraccked (**U**) görürüz.
-    ![Untitled](img/Untitled%2027.png)
-    ![Untitled](img/Untitled%2028.png)
+    ![Untitled](!img/Untitled%2027.png)
+    ![Untitled](!img/Untitled%2028.png)
   - bir dosyada değişiklik yaptıktan sonra (**M**) Harfine tıklarsak, neler değiştirdiğimizi eskiye kıyasla görebiliriz.
-    ![Untitled](img/Untitled%2029.png)
+    ![Untitled](!img/Untitled%2029.png)
   - Takip edilen Dosyalarda yapılan değişiklikleri eski haline geri getirebiliriz.
-    ![Untitled](img/Untitled%2030.png)
+    ![Untitled](!img/Untitled%2030.png)
   - **Eğer** **remote repository'e bağlıysak** ve commit'lerimizi remote repository'e göndermek istersek **Views and More Actions (1)** butonuna tıklayıp, **Push (2)** seçeneğini seçmeliyiz.
 - **.gitignore Dosyası Ne İşe Yarar?**
   - .gitignore dosyasının içerisinde yazmış olduğumuz dosyalar, dosya uzantıları, klasörler artık git tarafından takip edilmez. Untracked
   - Versiyon Kontrol Sisteminde Tutmamız Gerek Olmayan, Üstünde Sürekli Değişiklik Yapmadığımız, sabit duran dosya, video, görsel gibi elementleri tanımlar.
   - Herangi bir yazılım dili geliştirirken google’a :
     **react/.gitignore Yazarak, versiyonlanmasına gerek olmayan sabit dosyaları öğrenebiliriz.**
-    ![Untitled](img/Untitled%2031.png)
+    ![Untitled](!img/Untitled%2031.png)
   - Kullandığımız Kod Editörünün de (IDE) değişmeyen, sürekli versiyonlanmaması gereken dosyaları olabilir :
     **Örneğin : Aşağıdaki Elemanları Versiyonlamak Gereksizdir.**
-  - Görseller (img)
+  - Görseller (!img)
   - Videolar
   - Logolar
   - Paket Yöneticisi İle Kurulmuş Dosyalar (**npm**)
@@ -148,9 +148,9 @@
   - • Çalışma dizinizdeki **geçici dosyalar**
   ### Nasıl Yapılır?
   - Proje’nin içerisinde bir dosya açıp adını ‘’.gitignore’’ yapıyoruz.
-    ![Untitled](img/Untitled%2032.png)
-    ![Untitled](img/Untitled%2033.png)
-    ![Untitled](img/Untitled%2034.png)
+    ![Untitled](!img/Untitled%2032.png)
+    ![Untitled](!img/Untitled%2033.png)
+    ![Untitled](!img/Untitled%2034.png)
 - **.gitignore** kaynaklar
   [](https://github.com/github/gitignore/tree/main/Global)
   [Ignoring files - GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
@@ -169,15 +169,15 @@
 - **.gitignore_global Dosyası**
   Her seferinde .gitignore dosyası yazmakla uğraşmak istemiyorsak örneğin VS Code’ un ignore’ları değişmez ve her projemizde bunları ignore dosyamıza eklemek istemiyorsak `.gitignore_global` dosyası oluşturmamız gerekir. İnternette Araştırarak Nasıl yapıldığını öğrenebiliriz.
 - Branch Oluşturma, Timeline…vs
-  ![Untitled](img/Untitled%2035.png)
-  ![Untitled](img/Untitled%2036.png)
-  ![Untitled](img/Untitled%2037.png)
+  ![Untitled](!img/Untitled%2035.png)
+  ![Untitled](!img/Untitled%2036.png)
+  ![Untitled](!img/Untitled%2037.png)
   - Timeline’ı açarak bu şekilde daha önceki commitlere yani snapshotlara bakabiliriz.
   ## Branch Oluşturma
-  ![Untitled](img/Untitled%2038.png)
-  ![Untitled](img/Untitled%2039.png)
+  ![Untitled](!img/Untitled%2038.png)
+  ![Untitled](!img/Untitled%2039.png)
   - Sol altta daha önce master yazıyordu, şimdi loginForm adlı oluşturduğumuz dizindeyiz yani branchteyiz (loginForm Workspace’i)
-    ![Untitled](img/Untitled%2040.png)
+    ![Untitled](!img/Untitled%2040.png)
   - üstüne tıklarsak yine master’a geçiş yapabiliriz.
   - **git checkout _branch_ismi : branchler arası geçiş yapar_**
   ### Branch’imizi, Master’la birleştirme
@@ -185,7 +185,7 @@
   - **git merge _branch_ismi : alt branchimizin adını yazıyoruz_**
   - Master branchindeyken, xxx branchinde yapılan değişiklikleri görmek istiyorsak, ilgili dosyada **git merge _branch_ismi yazmamız gerekiyor_**
 - **GitHub’a** Projemizin Eklenmesi
-  ![Untitled](img/Untitled%2041.png)
+  ![Untitled](!img/Untitled%2041.png)
   - Github’dan bir repository oluşturuyoruz.
   - Visual Studio Code’ a gelip terminalde Şunları Yazıyoruz
   1. **git init**
@@ -193,14 +193,14 @@
   3. **git branch -M main**
   4. **git remote add origin https://github.com/tahatan0/tahatan0.git**
   5. **git push -u origin main**
-     ![Untitled](img/Untitled%2042.png)
+     ![Untitled](!img/Untitled%2042.png)
   - commit islemini yaptiktan sonra VS Code penceresinin en sol altinda Push-Pull Etmek Icin bir bolum var bu bolume tiklarsak ;
-    ![Untitled](img/Untitled%2043.png)
+    ![Untitled](!img/Untitled%2043.png)
   - git push işlemi otomatik olarak yapılmıştır, artık githundaki repomuz güncellenmiştir
 - **MarkDown** Nedir, Nasıl Kullanırız?
   - MarkDown 2004 yılından beri kullanılan bir standarttır.
-    ![Untitled](img/Untitled%2044.png)
-    ![Untitled](img/Untitled%2045.png)
+    ![Untitled](!img/Untitled%2044.png)
+    ![Untitled](!img/Untitled%2045.png)
     [Markdown Reference](https://commonmark.org/help/)
     README.md
   - .md uzantısın açılımı ‘’**mark down’**’ dur.
@@ -224,26 +224,26 @@
   }
   ````
   ## .md Dosyaları VS Code içerisinde görüntüleme
-  ![Untitled](img/Untitled%2046.png)
+  ![Untitled](!img/Untitled%2046.png)
   - Bu eklentiyi Yüklüyoruz.
-    ![Untitled](img/Untitled%2047.png)
+    ![Untitled](!img/Untitled%2047.png)
   - .md uzantısıyla bir dosya açıp içerisini dolduruyoruz
-    ![Untitled](img/Untitled%2048.png)
+    ![Untitled](!img/Untitled%2048.png)
   - ekranın sağ al kısımından MarkDown Yazısına Tıklıyoruz
-    ![Untitled](img/Untitled%2049.png)
-    ![Untitled](img/Untitled%2050.png)
+    ![Untitled](!img/Untitled%2049.png)
+    ![Untitled](!img/Untitled%2050.png)
   - Ardından CTRL + SHIFT + P ye tıklayarak açılan command panale MarkDown Open Preview Yazıyor ve tıklıyoruz.
-    ![Untitled](img/Untitled%2051.png)
-    ![Untitled](img/Untitled%2052.png)
+    ![Untitled](!img/Untitled%2051.png)
+    ![Untitled](!img/Untitled%2052.png)
   - ve artık vs code içerisinde bir pencerede .md uzantılı markdown dosyalarının nasıl göründüğünü görebiliyoruz.
-    ![Untitled](img/Untitled%2053.png)
+    ![Untitled](!img/Untitled%2053.png)
   - Ornek Bir Sayfa MarkDown Sayfasi
 - **GitHub Profile, README.md olusutrma**
   [GitHub Profile Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
   [Next Level GitHub Profile README (NEW 2022)(Markdown template) | Improve Your Github profiles](https://www.youtube.com/watch?v=G-EGDH50hGE)
 - **Odev 1** Patika (MarkDown)
-  ![Untitled](img/Untitled%2054.png)
-  ![Untitled](img/Untitled%2055.png)
+  ![Untitled](!img/Untitled%2054.png)
+  ![Untitled](!img/Untitled%2055.png)
 
 ## Kaynaklar :
 
