@@ -1,7 +1,7 @@
 - **Sırasıyla Push-Pull Etmek. (Düzenleniyor...)**
-  ![Untitled](!img/Untitled%2020.png)
-  ![Untitled](!img/Untitled%2021.png)
-  ![Untitled](!img/Untitled%2022.png)
+  ![Untitled](../!img/Untitled%2020.png)
+  ![Untitled](../!img/Untitled%2021.png)
+  ![Untitled](../!img/Untitled%2022.png)
   ### Projeyi Push Etmek
   1. **git init** **→** Local Repository oluşturur. (Proje Klasörünün içinde .git klasörü)
   2. **git add \*** **→** Değişikliklerin hepsini, working dir’ den stage’ e atar.

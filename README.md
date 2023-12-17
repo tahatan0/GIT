@@ -1,7 +1,5 @@
 ---
-
 ## Bu bölümde kendimce aldığım **GIT** Notlarımı Paylaşıyorum. İyi Okumalar...
-
 ---
 
 ### Kaynaklar
